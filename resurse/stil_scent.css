@@ -1,0 +1,449 @@
+@media screen and (min-width: 1100px) {
+    @font-face {
+        font-family: Tommy;
+        src: url('MADE TOMMY Regular_PERSONAL USE.otf');
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: rgb(224, 204, 188);
+        font-family: Tommy;
+        text-shadow: 3px 3px black;
+        font-size: 25px;
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    .meniu > li {
+        flex-grow: 1;
+        top: 50%;
+        text-align: center;
+        line-height: 1.6em;
+        flex-basis: 0;
+    }
+
+    .meniu > li > ul.submeniu {
+        display: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .meniu > li > ul.submeniu a {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .meniu > li:hover > ul.submeniu {
+        display: block;
+    }
+
+    .meniu li:hover {
+        background-color: black;
+        transition: background-color 1s;
+    }
+
+    .meniu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        text-align: right;
+        position: fixed;
+        z-index: 100;
+        width: 35%;
+        top: 25px;
+        right: 5px;
+    }
+
+    #head .top-left {
+        top: 25px;
+        left: 25px;
+        font-size: 30px;
+        color: rgb(224, 204, 188);
+        position: fixed;
+        text-shadow: 3px 3px black;
+        font-family: Tommy;
+    }
+
+    #head .bottom-center {
+        position: absolute;
+        left: 35.8%;
+        bottom: 100px;
+        font-size: 40px;
+        color: white;
+        font-family: Tommy;
+    }
+
+    #head .button-header {
+        position: absolute;
+        left: 38%;
+        bottom: 60px;
+        font-size: 25px;
+        background-color: rgba(211, 211, 211, 0.4);
+    }
+
+    #head .button-header a {
+        color: black;
+        padding: 15px;
+        font-family: Tommy;
+    }
+
+    #head #headerimg #img1 img {
+        width: 680px;
+    }
+
+    #head #headerimg #img2 img {
+        float: right;
+        padding-top: 123px;
+        width: 660px;
+    }
+
+    #head #headerimg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: baseline;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #inceput {
+        font-family: Tommy;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        margin: 0;
+        padding-top: 80px;
+        padding-left: 80px;
+        padding-bottom: 80px;
+    }
+
+    #inceput #column1 {
+        font-size: 50px;
+    }
+
+    #shop1 {
+        width: 80%;
+    }
+
+    #galerie {
+        display: grid;
+        grid-template-areas: "Poza1 Poza2 Poza3 Poza4" "Poza5 Poza6 Poza7 Poza8";
+        grid-row-gap: 300px;
+        padding-left: 150px;
+        padding-bottom: 250px;
+        grid-column-gap: 25px;
+    }
+
+    #shop2 {
+        width: 80%;
+    }
+
+    #galerie1 {
+        display: grid;
+        grid-template-areas: "Poza1 Poza2 Poza3";
+        padding-top: 40px;
+        padding-left: 220px;
+        padding-bottom: 300px;
+        grid-column-gap: 30px;
+    }
+
+    #galerie1 > figure:nth-child(1) {
+        grid-area: Poza1;
+    }
+
+    #galerie1 > figure:nth-child(2) {
+        grid-area: Poza2;
+    }
+
+    #galerie1 > figure:nth-child(3) {
+        grid-area: Poza3;
+    }
+
+    #galerie > figure:nth-child(1) {
+        grid-area: Poza1;
+    }
+
+    #galerie > figure:nth-child(2) {
+        grid-area: Poza2;
+    }
+
+    #galerie > figure:nth-child(3) {
+        grid-area: Poza3;
+    }
+
+    #galerie > figure:nth-child(4) {
+        grid-area: Poza4;
+    }
+
+    #galerie > figure:nth-child(5) {
+        grid-area: Poza5;
+    }
+
+    #galerie > figure:nth-child(6) {
+        grid-area: Poza6;
+    }
+
+    #galerie > figure:nth-child(7) {
+        grid-area: Poza7;
+    }
+
+    #galerie > figure:nth-child(8) {
+        grid-area: Poza8;
+    }
+
+    #jasmine {
+        position: relative;
+        padding-right: 50px;
+    }
+
+    #jasmine img {
+        position: absolute;
+        left: 0;
+    }
+
+    #jasmine img.behind {
+        width: 240px;
+    }
+
+    #jasmine img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #library {
+        position: relative;
+        padding-right: 50px;
+    }
+
+    #library img {
+        position: absolute;
+        left: 0;
+    }
+
+    #library img.behind {
+        width: 240px;
+    }
+
+    #library img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #springs {
+        position: relative;
+    }
+
+    #springs img {
+        position: absolute;
+        left: 0;
+    }
+
+    #springs img.behind {
+        width: 240px;
+    }
+
+    #springs img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #woodcabin {
+        position: relative;
+        padding-right: 50px;
+    }
+
+    #woodcabin img {
+        position: absolute;
+        left: 0;
+    }
+
+    #woodcabin img.behind {
+        width: 240px;
+    }
+
+    #woodcabin img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #wildfigs {
+        position: relative;
+        padding-right: 50px;
+    }
+
+    #wildfigs img {
+        position: absolute;
+        left: 0;
+    }
+
+    #wildfigs img.behind {
+        width: 240px;
+    }
+
+    #wildfigs img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #waves {
+        position: relative;
+        padding-right: 50px;
+    }
+
+    #waves img {
+        position: absolute;
+        left: 0;
+    }
+
+    #waves img.behind {
+        width: 240px;
+    }
+
+    #waves img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #northlands {
+        position: relative;
+
+    }
+
+    #northlands img {
+        position: absolute;
+        left: 0;
+    }
+
+    #northlands img.behind {
+        width: 240px;
+    }
+
+    #northlands img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #lavender {
+        position: relative;
+        padding-right: 50px;
+    }
+
+    #lavender img {
+        position: absolute;
+        left: 0;
+    }
+
+    #lavender img.behind {
+        width: 240px;
+    }
+
+    #lavender img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #green {
+        position: relative;
+        padding-right: 50px;
+    }
+
+    #green img {
+        position: absolute;
+        left: 0;
+    }
+
+    #green img.behind {
+        width: 240px;
+    }
+
+    #green img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #grape {
+        position: relative;
+        padding-right: 50px;
+    }
+
+    #grape img {
+        position: absolute;
+        left: 0;
+    }
+
+    #grape img.behind {
+        width: 240px;
+    }
+
+    #grape img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #cotton {
+        position: relative;
+    }
+
+    #cotton img {
+        position: absolute;
+        left: 0;
+    }
+
+    #cotton img.behind {
+        width: 240px;
+    }
+
+    #cotton img.front:hover {
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    #scent_text {
+        font-family: Tommy;
+        width: 100%;
+        padding-top: 10px;
+        text-align: center;
+        border-bottom: 3px solid black;
+        border-top: 3px solid black;
+        padding-bottom: 10px;
+        background-color: rgb(224, 204, 188);
+        font-size: 20px;
+    }
+
+    #limited {
+        font-family: Tommy;
+        padding-top: 50px;
+        padding-left: 100px;
+        font-size: 30px;
+    }
+
+    #link-top {
+        text-decoration: none;
+        color: black;
+        left: 50%;
+        font-family: Tommy;
+    }
+
+    footer {
+        background-color: rgb(224, 204, 188);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

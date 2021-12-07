@@ -1,0 +1,269 @@
+@media screen and (max-width: 1100px) {
+    @font-face {
+        font-family: Tommy;
+        src: url('MADE TOMMY Regular_PERSONAL USE.otf');
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: rgb(224, 204, 188);
+        font-family: Tommy;
+        text-shadow: 3px 3px black;
+        font-size: 25px;
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    .meniu > li {
+        flex-grow: 1;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        top: 50%;
+        text-align: center;
+        line-height: 1.6em;
+        flex-basis: 0;
+    }
+
+    .meniu > li > ul.submeniu {
+        display: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .meniu > li > ul.submeniu a {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .meniu > li:hover > ul.submeniu {
+        display: block;
+        position:absolute;
+        right:60%;
+        width:90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        top:50%;
+    }
+
+    .meniu li:hover {
+        background-color: black;
+        transition: background-color 1s;
+    }
+
+    .meniu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        text-align: right;
+        position: fixed;
+        width: 15%;
+        top: 25px;
+        right: 20px;
+        z-index: 20;
+    }
+    #head #headerimg #img1 img {
+        width: 600px;
+    }
+
+    #head #headerimg #img2 img {
+        float: right;
+        visibility: hidden;
+        width: 1px;
+    }
+
+    #head #headerimg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: baseline;
+    }
+
+    #head .top-left {
+        top: 25px;
+        left: 25px;
+        font-size: 30px;
+        color: rgb(224, 204, 188);
+        position: fixed;
+        text-shadow: 3px 3px black;
+        font-family: Tommy;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #inceput {
+        font-family: Tommy;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        margin: 0;
+        padding-top: 80px;
+        padding-left: 70px;
+        padding-bottom: 20px;
+
+    }
+
+    #inceput #column1 {
+        font-size: 50px;
+    }
+
+    #review1 {
+        padding-left: 70px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+
+    #titlureview1 {
+        font-family: Tommy;
+        font-size: 15px;
+        padding-left:20px;
+    }
+
+    #textreview1 {
+        font-family: Tommy;
+        font-size: 20px;
+        padding-left:20px;
+    }
+
+    #review1 #review1picture img {
+        width: 300px;
+        padding-top:10px;
+    }
+
+    #review2 {
+        padding-top: 50px;
+        padding-left: 70px;
+        display: flex;
+        background-color: rgb(224, 204, 188);
+        flex-direction: column;
+    }
+
+    #titlureview2 {
+        font-family: Tommy;
+        font-size: 15px;
+        padding-left:20px;
+    }
+
+    #textreview2 {
+        font-family: Tommy;
+        font-size: 20px;
+        padding-bottom:50px;
+        padding-left:20px;
+    }
+
+    #review2 #review2picture img {
+        width: 300px;
+    }
+
+    #review3 {
+        padding-top: 30px;
+        padding-left: 70px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+
+    #titlureview3 {
+        font-family: Tommy;
+        font-size: 15px;
+        padding-left:20px;
+    }
+
+    #textreview3 {
+        font-family: Tommy;
+        font-size: 20px;
+        padding-left:20px;
+        padding-bottom: 10px;
+    }
+
+    #review3 #review3picture img {
+        width: 300px;
+    }
+
+    #review4 {
+        padding-top: 50px;
+        padding-left: 70px;
+        display: flex;
+        background-color: rgb(224, 204, 188);
+        flex-direction: column;
+    }
+
+    #titlureview4 {
+        font-family: Tommy;
+        font-size: 15px;
+        padding-left:20px;
+    }
+
+    #textreview4 {
+        font-family: Tommy;
+        font-size: 20px;
+        padding-bottom:50px;
+        padding-left:20px;
+    }
+
+    #review4 #review4picture img {
+        width: 300px;
+    }
+
+    #review5 {
+        padding-top: 30px;
+        padding-left: 70px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        padding-bottom: 50px;
+    }
+
+    #titlureview5 {
+        font-family: Tommy;
+        font-size: 15px;
+        padding-left:20px;
+    }
+
+    #textreview5 {
+        font-family: Tommy;
+        font-size: 20px;
+        padding-left:20px;
+        padding-bottom: 10px;
+    }
+
+    #review5 #review5picture img {
+        width: 300px;
+    }
+
+
+    #link-top {
+        text-decoration: none;
+        color: black;
+        left: 50%;
+        font-family: Tommy;
+    }
+
+    footer {
+        background-color: rgb(224, 204, 188);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

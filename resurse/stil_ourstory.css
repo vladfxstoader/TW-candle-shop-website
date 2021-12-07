@@ -1,0 +1,183 @@
+@media screen and (min-width: 1100px) {
+    @font-face {
+        font-family: Tommy;
+        src: url('MADE TOMMY Regular_PERSONAL USE.otf');
+    }
+
+    video {
+        width: 100%;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: rgb(224, 204, 188);
+        font-family: Tommy;
+        text-shadow: 3px 3px black;
+        font-size: 25px;
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    .meniu > li {
+        flex-grow: 1;
+        top: 50%;
+        text-align: center;
+        line-height: 1.6em;
+        flex-basis: 0;
+    }
+
+    .meniu > li > ul.submeniu {
+        display: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .meniu > li > ul.submeniu a {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .meniu > li:hover > ul.submeniu {
+        display: block;
+    }
+
+    .meniu li:hover {
+        background-color: black;
+        transition: background-color 1s;
+    }
+
+    .meniu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        text-align: right;
+        position: fixed;
+        width: 35%;
+        top: 25px;
+        right: 5px;
+    }
+
+
+    #head .top-left {
+        top: 25px;
+        left: 25px;
+        font-size: 30px;
+        color: rgb(224, 204, 188);
+        position: fixed;
+        text-shadow: 3px 3px black;
+        font-family: Tommy;
+    }
+
+    #head .bottom-center {
+        position: absolute;
+        left: 35.8%;
+        bottom: 100px;
+        font-size: 40px;
+        color: white;
+        font-family: Tommy;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #inceput {
+        font-family: Tommy;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0;
+        padding: 80px;
+    }
+
+    #inceput #column1 {
+        font-size: 50px;
+    }
+
+    #text1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    #text1 #column3 {
+        font-family: Tommy;
+        padding-left: 210px;
+        font-size: 15px;
+    }
+
+    #text1 #column4 img {
+        height: 290px;
+        padding-left: 135px;
+    }
+
+    #text2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding-bottom: 200px;
+    }
+
+    #text2 #column5 {
+        font-family: Tommy;
+        padding-left: 210px;
+        font-size: 15px;
+    }
+
+    #text2 #column6 img {
+        height: 300px;
+        padding-left: 250px;
+    }
+
+    #text3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding-bottom: 100px;
+    }
+
+    #text3 #column8 {
+        padding-left: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #text3 #column8 img {
+        height: 250px;
+        padding-left: 25px;
+    }
+
+    #text3 #column7 {
+        font-family: Tommy;
+        padding-left: 210px;
+        font-size: 16px;
+    }
+
+    #link-top {
+        text-decoration: none;
+        color: black;
+        left: 50%;
+        font-family: Tommy;
+    }
+
+    footer {
+        background-color: rgb(224, 204, 188);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

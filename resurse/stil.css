@@ -1,0 +1,340 @@
+@media screen and (min-width: 1100px) {
+    @font-face {
+        font-family: Tommy;
+        src: url('MADE TOMMY Regular_PERSONAL USE.otf');
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: rgb(224, 204, 188);
+        font-family: Tommy;
+        text-shadow: 3px 3px black;
+        font-size: 25px;
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    .meniu > li {
+        flex-grow: 1;
+        top: 50%;
+        text-align: center;
+        line-height: 1.6em;
+        flex-basis: 0;
+    }
+
+    .meniu > li > ul.submeniu {
+        display: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .meniu > li > ul.submeniu a {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .meniu > li:hover > ul.submeniu {
+        display: block;
+    }
+
+    .meniu li:hover {
+        background-color: black;
+        transition: background-color 1s;
+    }
+
+    .meniu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        text-align: right;
+        position: fixed;
+        width: 35%;
+        top: 25px;
+        right: 5px;
+        z-index: 10;
+    }
+
+    #container-animatie {
+        width: 1519px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    #container-animatie img {
+        width: 1519px;
+    }
+
+    #animata {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        animation-name: slide;
+        animation-duration: 15s;
+        animation-delay: 0.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes slide {
+        0% {
+            margin-left: 0px;
+        }
+        25% {
+            margin-left: 0px;
+        }
+
+        25% {
+            margin-left: -1519px;
+        }
+        45% {
+            margin-left: -1519px;
+        }
+
+        50% {
+            margin-left: -3038px;
+        }
+        70% {
+            margin-left: -3038px;
+        }
+
+        75% {
+            margin-left: -4557px;
+        }
+        100% {
+            margin-left: -4557px;
+        }
+
+    }
+
+    #head .top-left {
+        top: 25px;
+        left: 25px;
+        font-size: 30px;
+        color: rgb(224, 204, 188);
+        position: fixed;
+        text-shadow: 3px 3px black;
+        font-family: Tommy;
+    }
+
+    #head .bottom-center {
+        position: absolute;
+        left: 35.8%;
+        bottom: 100px;
+        font-size: 40px;
+        color: white;
+        font-family: Tommy;
+    }
+
+    #head .button-header {
+        position: absolute;
+        left: 43.3%;
+        bottom: 60px;
+        font-size: 25px;
+    }
+
+    #head .button-header a {
+        color: black;
+        padding: 15px;
+        font-family: Tommy;
+    }
+
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    #monthyear {
+        display:flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        font-family: Tommy;
+        width: 30%; /* Could be more or less, depending on screen size */
+    }
+
+    /* The Close Button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    #citat{
+        padding-top: 50px;
+    }
+
+    .quote{
+        text-align: center;
+        font-family: Tommy;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0;
+        padding-bottom: 100px;
+    }
+
+    #about #column1 img {
+        width: 400px;
+    }
+
+    #about #column1 {
+        padding-top: 50px;
+    }
+
+    #about #column1 figcaption {
+        padding-top: 20px;
+        font-family: Tommy;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #about #column1 p {
+        padding-left: 40px;
+        padding-top: 0;
+        margin-top: 0;
+        font-family: Tommy;
+    }
+
+    #about #column2 figure img {
+        width: 600px;
+    }
+
+    #about #column2 {
+        padding-top: 50px;
+    }
+
+    #about #column2 figcaption {
+        padding-top: 20px;
+        font-family: Tommy;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #about #column2 p {
+        padding-left: 40px;
+        padding-top: 0;
+        margin-top: 0;
+        font-family: Tommy;
+    }
+
+
+    #green_market {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    #green_market img {
+        height: 400px;
+    }
+
+    #green_market #text {
+        padding-top: 160px;
+        font-family: Tommy;
+        padding-left: 750px;
+        position: absolute;
+        text-align: center;
+    }
+
+
+    #about1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0;
+        padding-top: 100px;
+    }
+
+    #about1 #column3 img {
+        width: 600px;
+    }
+
+    #about1 #column4 img {
+        width: 400px;
+    }
+
+    #about1 #column3 figcaption {
+        padding-top: 20px;
+        font-family: Tommy;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #about1 #column4 figcaption {
+        padding-top: 20px;
+        font-family: Tommy;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    #about1 #column3 p {
+        padding-left: 40px;
+        padding-top: 0;
+        margin-top: 0;
+        font-family: Tommy;
+    }
+
+    #about1 #column4 p {
+        padding-left: 40px;
+        padding-top: 0;
+        margin-top: 0;
+        font-family: Tommy;
+    }
+
+    #link-top {
+        text-decoration: none;
+        color: black;
+        left: 50%;
+        font-family: Tommy;
+    }
+
+    footer {
+        background-color: rgb(224, 204, 188);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+}

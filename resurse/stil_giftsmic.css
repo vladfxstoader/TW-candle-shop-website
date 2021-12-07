@@ -1,0 +1,203 @@
+@media screen and (max-width: 1100px) {
+    @font-face {
+        font-family: Tommy;
+        src: url('MADE TOMMY Regular_PERSONAL USE.otf');
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: rgb(224, 204, 188);
+        font-family: Tommy;
+        text-shadow: 3px 3px black;
+        font-size: 25px;
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    .meniu > li {
+        flex-grow: 1;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        top: 50%;
+        text-align: center;
+        line-height: 1.6em;
+        flex-basis: 0;
+    }
+
+    .meniu > li > ul.submeniu {
+        display: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .meniu > li > ul.submeniu a {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .meniu > li:hover > ul.submeniu {
+        display: block;
+        position:absolute;
+        right:60%;
+        width:90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        top:50%;
+    }
+
+    .meniu li:hover {
+        background-color: black;
+        transition: background-color 1s;
+    }
+
+    .meniu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        text-align: right;
+        position: fixed;
+        width: 15%;
+        top: 25px;
+        right: 20px;
+        z-index: 20;
+    }
+
+    #head #headerimg #img11 img {
+        width: 400px;
+        padding-left: 70px;
+    }
+
+    #head #headerimg #img22 img {
+        float: left;
+        padding-top: 30px;
+        padding-left: 70px;
+        width: 400px;
+    }
+
+    #head #headerimg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: baseline;
+    }
+
+    #head .top-left {
+        top: 25px;
+        left: 25px;
+        font-size: 30px;
+        color: rgb(224, 204, 188);
+        position: fixed;
+        text-shadow: 3px 3px black;
+        font-family: Tommy;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #text1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        font-family: Tommy;
+        padding-top: 20px;
+        padding-left: 70px;
+        padding-bottom: 80px;
+    }
+
+    #text1 #column1 {
+        padding-bottom: 30px;
+    }
+
+    #poze2 {
+        font-family: Tommy;
+        background-color: rgb(224, 204, 188);
+    }
+
+    #poze2 #img1 #text2 {
+        padding-top: 20px;
+        padding-left: 70px;
+    }
+
+    #poze2 #img1 img {
+        width: 400px;
+        padding-left:70px;
+    }
+
+    #poze2 #img2 #text3 {
+        padding-left: 70px;
+    }
+
+    #poze2 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    #poze2 #img2 img {
+        padding-bottom: 20px;
+        padding-top:40px;
+        padding-left:70px;
+        width: 400px;
+    }
+
+    #poze3 {
+        display: flex;
+        font-family: Tommy;
+        flex-direction: column;
+        align-content: baseline;
+        justify-content: space-between;
+        padding-bottom: 100px;
+        padding-top: 80px;
+    }
+
+    #poze3 #img3 img {
+        width: 400px;
+        padding-left:70px;
+    }
+
+    #poze3 #img4 img {
+        width: 400px;
+        padding-top:40px;
+        padding-left:70px;
+    }
+
+    #poze3 #img3 #text4 {
+        padding-left: 70px;
+        padding-top: 20px;
+    }
+
+    #poze3 #img4 #text5 {
+        padding-top: 20px;
+        padding-left: 70px;
+    }
+
+    #link-top {
+        text-decoration: none;
+        color: black;
+        left: 50%;
+        font-family: Tommy;
+    }
+
+    footer {
+        background-color: rgb(224, 204, 188);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "keap",
+  "version": "1.0.0",
+  "devDependencies": {
+    "formidable": "^1.2.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "*"
+  }
+}

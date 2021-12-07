@@ -1,0 +1,278 @@
+@media screen and (min-width: 1100px) {
+    @font-face {
+        font-family: Tommy;
+        src: url('MADE TOMMY Regular_PERSONAL USE.otf');
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: rgb(224, 204, 188);
+        font-family: Tommy;
+        text-shadow: 3px 3px black;
+        font-size: 25px;
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    .meniu > li {
+        flex-grow: 1;
+        top: 50%;
+        text-align: center;
+        line-height: 1.6em;
+        flex-basis: 0;
+    }
+
+    .meniu > li > ul.submeniu {
+        display: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .meniu > li > ul.submeniu a {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .meniu > li:hover > ul.submeniu {
+        display: block;
+    }
+
+    .meniu li:hover {
+        background-color: black;
+        transition: background-color 1s;
+    }
+
+    .meniu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        text-align: right;
+        position: fixed;
+        z-index: 20;
+        width: 35%;
+        top: 25px;
+        right: 5px;
+    }
+
+    #head #headerimg #img1 img {
+        width: 700px;
+    }
+
+    #head #headerimg #img2 img {
+        float: right;
+        padding-top: 123px;
+        width: 700px;
+    }
+
+    #head #headerimg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: baseline;
+    }
+
+    #head .top-left {
+        top: 25px;
+        left: 25px;
+        font-size: 30px;
+        color: rgb(224, 204, 188);
+        position: fixed;
+        text-shadow: 3px 3px black;
+        font-family: Tommy;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #inceput {
+        font-family: Tommy;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        margin: 0;
+        padding-top: 80px;
+        padding-left: 80px;
+        padding-bottom: 80px;
+
+    }
+
+    #inceput #column1 {
+        font-size: 50px;
+    }
+
+    #review1 {
+        padding: 80px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    #titlureview1 {
+        font-family: Tommy;
+        font-size: 15px;
+    }
+
+    #textreview1 {
+        font-family: Tommy;
+        font-size: 30px;
+    }
+
+    #review1 #review1picture img {
+        width: 450px;
+    }
+
+    #review1picture img:hover {
+        position: relative;
+        z-index: 10;
+        transition: transform 3s;
+        transform: scale(1.3);
+    }
+
+    #review2 {
+        padding: 80px;
+        display: flex;
+        background-color: rgb(224, 204, 188);
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    #titlureview2 {
+        font-family: Tommy;
+        font-size: 15px;
+    }
+
+    #textreview2 {
+        font-family: Tommy;
+        font-size: 30px;
+    }
+
+    #review2 #review2picture img {
+        width: 450px;
+    }
+
+    #review2picture img:hover {
+        position: relative;
+        z-index: 10;
+        transition: transform 3s;
+        transform: scale(1.3);
+    }
+
+    #review3 {
+        padding: 80px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    #titlureview3 {
+        font-family: Tommy;
+        font-size: 15px;
+    }
+
+    #textreview3 {
+        font-family: Tommy;
+        font-size: 30px;
+    }
+
+    #review3 #review3picture img {
+        width: 450px;
+    }
+
+    #review3picture img:hover {
+        position: relative;
+        z-index: 10;
+        transition: transform 3s;
+        transform: scale(1.3);
+    }
+
+    #review4 {
+        padding: 80px;
+        display: flex;
+        background-color: rgb(224, 204, 188);
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    #titlureview4 {
+        font-family: Tommy;
+        font-size: 15px;
+    }
+
+    #textreview4 {
+        font-family: Tommy;
+        font-size: 30px;
+    }
+
+    #review4 #review4picture img {
+        width: 450px;
+    }
+
+    #review4picture img:hover {
+        position: relative;
+        z-index: 10;
+        transition: transform 3s;
+        transform: scale(1.3);
+    }
+
+    #review5 {
+        padding: 80px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    #titlureview5 {
+        font-family: Tommy;
+        font-size: 15px;
+    }
+
+    #textreview5 {
+        font-family: Tommy;
+        font-size: 30px;
+    }
+
+    #review5 #review5picture img {
+        width: 450px;
+    }
+
+    #review5picture img:hover {
+        position: relative;
+        z-index: 10;
+        transition: transform 3s;
+        transform: scale(1.3);
+    }
+
+    #link-top {
+        text-decoration: none;
+        color: black;
+        left: 50%;
+        font-family: Tommy;
+    }
+
+    footer {
+        background-color: rgb(224, 204, 188);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,195 @@
+@media screen and (max-width: 1100px) {
+    @font-face {
+        font-family: Tommy;
+        src: url('MADE TOMMY Regular_PERSONAL USE.otf');
+    }
+
+    video {
+        width: 100%;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: rgb(224, 204, 188);
+        font-family: Tommy;
+        text-shadow: 3px 3px black;
+        font-size: 25px;
+        display: block;
+        width: 100%;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    .meniu > li {
+        flex-grow: 1;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        top: 50%;
+        text-align: center;
+        line-height: 1.6em;
+        flex-basis: 0;
+    }
+
+    .meniu > li > ul.submeniu {
+        display: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .meniu > li > ul.submeniu a {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .meniu > li:hover > ul.submeniu {
+        display: block;
+        position:absolute;
+        right:60%;
+        width:90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        top:50%;
+    }
+
+    .meniu li:hover {
+        background-color: black;
+        transition: background-color 1s;
+    }
+
+    .meniu {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    nav {
+        text-align: right;
+        position: fixed;
+        width: 15%;
+        top: 25px;
+        right: 20px;
+        z-index: 20;
+    }
+
+
+    #head .top-left {
+        top: 25px;
+        left: 25px;
+        font-size: 30px;
+        color: rgb(224, 204, 188);
+        position: fixed;
+        text-shadow: 3px 3px black;
+        font-family: Tommy;
+    }
+
+    #head .bottom-center {
+        visibility: hidden;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #inceput {
+        font-family: Tommy;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0;
+        padding-left: 70px;
+        padding-top:30px;
+    }
+
+    #inceput #column1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    #text1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    #text1 #column3 {
+        font-family: Tommy;
+        padding-left: 70px;
+        width: 40%;
+        padding-top:50px;
+        font-size: 15px;
+    }
+
+    #text1 #column4 img {
+        height: 400px;
+        padding-top:50px;
+        padding-left: 105px;
+    }
+
+    #text2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width:100%;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    #text2 #column5 {
+        font-family: Tommy;
+        padding-left: 140px;
+        font-size: 15px;
+    }
+
+    #text2 #column6 img {
+        height: 300px;
+        padding-left: 140px;
+    }
+
+    #text3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-bottom: 50px;
+    }
+
+    #text3 #column8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    #text3 #column8 img {
+        height: 250px;
+        padding-left: 20px;
+    }
+
+    #text3 #column7 {
+        font-family: Tommy;
+        padding-left: 70px;
+        font-size: 16px;
+    }
+
+    #link-top {
+        text-decoration: none;
+        color: black;
+        left: 50%;
+        font-family: Tommy;
+    }
+
+    footer {
+        background-color: rgb(224, 204, 188);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
